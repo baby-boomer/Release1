@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>CFC Sports Store</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="CFC5.css">
+
+	<script
+src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+crossorigin="anonymous"></script>
+
+<script>
+$(function() {$(".toggle").on("click", function() 
+                {if ($(".item").hasClass("active")) 
+                    {$(".item").removeClass("active");} 
+                    else 
+                    {$(".item").addClass("active");}});});
+</script>
+</head>
+
+<body>
+<section id="home">
+
+	<nav> 
+        <div>
+			<ul class="logo">
+			<li class="logo1">CFC SPORTS</li>
+			</ul>
+		</div>
+		
+		<ul class="menu">
+            <!-- <li class="logo"><a href="#">CFC SPORTS</a></li> -->
+            <li class="item"><a href="#our-products">Products</a></li>
+            <li class="item"><a href="#gallery">Gallery</a></li>
+            <li class="item"><a href="#google-map">Map</a></li>
+            <li class="item button"><a href="#contact">Contact</a></li>
+            <li class="item button secondary"><a href="#about">About</a></li> <!-- secondary because it will be an outline without background-->
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
+  
+	<!-- COVER PAGE SECTION 1 -->
+
+
+		<header id="main-header">
+			<div class="banner-container">
+				<img class="banner" src="x.jpg" alt="Store Front Wide shot">
+			</div>
+			<div class="header-text">
+				<h1>Quality European Sports Brands</h1>
+				<h2>Joma</h2>
+				<h3> Made in Spain</h3>
+			</div>
+			<div>
+				<a href="#our-products" class="btn">Our sports wear selections</a>
+			</div>
+		</header>
+	</section>
+
+	<!-- SECTION 2 - OUR PRODUCTS / WITH 3 LINKED IMAGES-->
+
+
+	<section id="our-products">
+		<div class="container1">
+			<header>
+				<h2>Our Products</h2>
+				<p>We sell quality sports apparel brands at affordable prices</p>
+			</header>
+			<div class="gallery1">
+				<div>
+					<img src="s3.jpg" alt="sports shoe 13">
+					
+					<h4>Sports Shoes</h4>
+					<p>Our sports shoes collection covers all sporting occasions and disciplines</p>
+					<p>$25 to $90</p>
+				</div>
+				<div>
+					<img src="c16.jpg" alt="Sports Clothes Rack 1">
+					<h4>Quality sports apparel</h4>
+					<p>Quality sports apparel for sports activities and casual wear at competitive prices</p>
+					<p>$10 to $80</p>
+				</div>
+				<div>
+					<img src="a1.jpg" alt="A2 accesssories in landscape">
+					<h4>Sports accessories and aids</h4>
+					<p>Made for sports professionals</p>
+					<p>$ Varies</p>
+				</div>
+			</div>
+	
+				
+		</div>
+		<h5><em>Interested in our products?</em></h5>
+	
+		<a href="#contact" class="text-link">Send us a message</a> or
+
+		<a href="#about" class="text-link"> Visit our store</a>
+		
+		
+	</section>
+
+
+	<page-break></page-break>
+
+	<section id="gallery">
+
+		<!-- SECTION 3 / SPORTS SHOES - GRID -->
+		<div class="gallery-title">
+
+			<h2>Sports Shoes</h2>
+		</div>
+
+		<div class="container2">
+
+			<div class="gallery-container w-2 h-1">
+				<!-- image width spans 3 columns and height of 3 rows -->
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s.jpg" alt="Sports shoe 113">
+					</div>
+					<div class="text">Sports shoe 113</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s1.jpg" alt="Sports shoe 102">
+					</div>
+					<div class="text">Sports shoe 101</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s2.jpg" alt="Sports shoe 103">
+					</div>
+					<div class="text">Sports shoe 102</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s3.jpg" alt="Sports shoe 104">
+					</div>
+					<div class="text">Sports shoe 103</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s4.jpg" alt="Sports shoe 105">
+					</div>
+					<div class="text">Sports shoe 104</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s5.jpg" alt="Sports shoe 106">
+					</div>
+					<div class="text">Sports shoe 105</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s6.jpg" alt="Sports shoe 106">
+					</div>
+					<div class="text">Sports shoe 106</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s7.jpg" alt="Sports shoe s7">
+					</div>
+					<div class="text">Sports shoe 107</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s8.jpg" alt="Sports shoe 108">
+					</div>
+					<div class="text">Sports shoe 108</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s9.jpg" alt="Sports shoe 109">
+					</div>
+					<div class="text">Sports shoe 110</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s14.jpg" alt="Sports shoe 114">
+					</div>
+					<div class="text">Sports shoe 111</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s11.jpg" alt="Sports shoe 111">
+					</div>
+					<div class="text">Sports shoe 112</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s12.jpg" alt="Sports shoe 112">
+					</div>
+					<div class="text">Sports shoe 114</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s13.jpg" alt="Sports shoe SF13">
+					</div>
+					<div class="text">Sports shoe 113</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s10.jpg" alt="Sports shoe SF10">
+					</div>
+					<div class="text">Sports shoe SF01</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="s16.jpg" alt="S16">
+					</div>
+					<div class="text">Sports shoe SF02</div>
+				</div>
+			</div>
+		</div>
+
+
+		<page-break>  </page-break>
+
+
+		<!-- SECTION 4 / APPAREL- GRID -->
+		<div class="gallery-title">
+			<h2>Sports apparel</h2>
+		</div>
+
+
+		<div class="container2">
+
+			<div class="gallery-container w-2 h-1">
+				<!-- image width spans 3 columns and height of 3 rows -->
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c8.jpg" alt="C8">
+					</div>
+					<div class="text">C8</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c1.jpg" alt="C1">
+					</div>
+					<div class="text">C1</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c7.jpg" alt="C7">
+					</div>
+					<div class="text">C7</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c13.jpg" alt="C13">
+					</div>
+					<div class="text">C13</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c9.jpg" alt="C9">
+					</div>
+					<div class="text">C9</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c10.jpg" alt="C10">
+					</div>
+					<div class="text">C10</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c11.jpg" alt="C11">
+					</div>
+					<div class="text">C11</div>
+				</div>
+			</div>
+			<div class="gallery-container w-2 h-1">
+				<div class="gallery-item">
+					<div class="image">
+						<img src="c12.jpg" alt="C12">
+					</div>
+					<div class="text">C12</div>
+				</div>
+			</div>
+
+		</div>
+
+		<page-break></page-break>
+
+		<!-- SECTION 5 /  ACCESSORIES - GRID -->
+
+		<section id="accesories">
+
+			<div class="gallery-title">
+				<h2>Sports accessories</h2>
+			</div>
+
+			<div class="container2">
+
+				<div class="gallery-container w-4 h-1">
+					<!-- image width spans 3 columns and height of 3 rows -->
+					<div class="gallery-item">
+						<div class="image">
+							<img src="a.jpg" alt="A">
+						</div>
+						<div class="text">Accessories 1</div>
+					</div>
+				</div>
+				<div class="gallery-container w-4 h-1">
+					<div class="gallery-item">
+						<div class="image">
+							<img src="c15.jpg" alt="A2">
+						</div>
+						<div class="text">Accessories 2</div>
+					</div>
+				</div>
+				<div class="gallery-container w-2 h-1">
+					<div class="gallery-item">
+						<div class="image">
+							<img src="a2.jpg" alt="A3">
+						</div>
+						<div class="text">A3</div>
+					</div>
+				</div>
+				<div class="gallery-container w-2 h-1">
+					<div class="gallery-item">
+						<div class="image">
+							<img src="a3.jpg" alt="A4">
+						</div>
+						<div class="text">A4</div>
+					</div>
+				</div>
+				<div class="gallery-container w-2 h-1">
+					<div class="gallery-item">
+						<div class="image">
+							<img src="a4.jpg" alt="CR5">
+						</div>
+						<div class="text">CR5</div>
+					</div>
+				</div>
+				<div class="gallery-container w-2 h-1">
+					<div class="gallery-item">
+						<div class="image">
+							<img src="sr.jpg" alt="A6">
+						</div>
+						<div class="text">SR</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+		<!---CONTACT SECTION - DARK -->
+
+
+		<section id="contact" class="dark">
+			<div class="container small">
+				<header>
+					<p class="in-touch">Contact us</p>
+					<h3>Let's stay in touch</h3>
+				</header>
+
+				<form action="#home" method="post">
+					<div>
+						<label for="contact-name">Name</label>
+						<input type="text" name="contact-name" id="contact-name">
+					</div>
+					<div>
+						<label for="contact-email">Email address</label>
+						<input type="email" name="contact-email" id="contact-email">
+						<div>
+							<label for="Contact-message">Message</label>
+							<textarea name="contact-message" id="contact-message" cols="30" rows="3"></textarea>
+						</div>
+						<div class="buttons">
+							<button class="btn"><strong>Send message</strong></button>
+
+							<p class="muted"><em>All fields are required. We'll get back to you as soon as
+									possible.</em></p>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<p class="section-intro">Visit our store</p>
+				<p class="whatsapp">Phone and WhatsApp</p>
+				<h3 class="phone">+ (961) 71 757 137</h3>
+				<p class="address">Main Street, Amioun Ehden Road,<br>Kfar Saroun, Koura</p>
+			
+
+			<div>
+				<ul class="social-icons">
+				
+					<li>
+						<a href="#home"><img id="home-icon" src="Home.jpg" alt="Home logo"></a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/profile.php?id=100064178373327" target="_blank"><img src="icons8-facebook.svg" alt="Facebook"></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/cfc_sportss/" target="_blank"><img src="icons8-instagram.svg" target="_blank" alt="Instagram"></a>
+					</li>
+				</ul>
+			</div>
+			<footer>
+					<div class="copyright">
+						<p> &copy; copyright <a href="#"><strong>CodenHex</strong></a> and <a href="#"><strong>MerSoft</strong></a> all rights reserved</p>
+					</div>
+			</footer>
+
+		</section>
+
+	<section id="google-map">
+			<div class="mapouter">
+			<div class="gmap_canvas">
+
+				<iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=CFC Sports Store, Kfar Saroun&t=k&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+				<style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}
+				</style>
+
+				<style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+				</style>
+			</div>
+		</div>	
+
+		
+	</section>
+	
+
+</body>
+
+</html>

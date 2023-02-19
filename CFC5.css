@@ -1,0 +1,627 @@
+
+
+/* Basic styling */
+
+* {box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+
+/* .......... NAVBAR ............   */
+
+  nav   {
+        width: 100%;
+        background: #222;
+        padding: 5px 20px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    ul    {list-style-type: none;}
+   
+
+    .logo{
+  
+    color: white;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+  } 
+
+  nav a   {color: white;
+          text-decoration: none;}
+ 
+  a:hover   {text-decoration: underline;}
+  
+  .logo a:hover {
+              text-decoration: none;
+
+            }
+
+  .menu li  { font-size: 16px;
+              padding: 15px 5px; 
+              white-space: nowrap;
+              float: right;
+            }
+
+
+  .toggle a {
+    font-size: 16px;
+    }
+  .button.secondary {
+                      border-bottom: 1px #444 solid;
+                    }
+    
+    /* From Index html styles css  */
+    
+    /* -------------------------------------------- CHAIRS-------------------------------------------------*/
+    /* Typography */
+    
+    html{font-size: 16px;}
+    
+    body{font-family: 'Poppins', sans-serif;
+    line-height: 1.1; 
+    color: rgb(60, 58, 71);
+    }
+    
+    /* MAIN HEADER -- Banner Comtainer*/
+    
+    h1, h2, h3, h4 {
+        text-shadow: 3px 3px 5px gray;
+        margin: 2rem;
+    }
+
+    h5{
+        font-size:1rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .header-text h1 {/*<h1>Quality European Sports Brands</h1>*/
+        font-size: 2rem;
+        font: tahoma, arial, helvetica, sans-serif; 
+        font-weight: 400;}
+  
+    
+    .header-text h2{ /*Joma*/
+        font-size: 1.7rem;
+        font-weight: 800;
+      
+        letter-spacing: -1px;
+        color: rgb(224, 3, 3);}
+    
+    .header-text h3 {font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: -1px;}
+    
+    .header-text h3 .large {font: size 3.15rem;}
+    
+    .dark h3{color: rgb(255, 255, 255);}
+    
+    h4 {font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 1rem;}
+    
+    p {margin-top: 2rem;
+        margin-top: 2rem;
+    }
+    
+    p.section-intro {
+        font-weight:600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-top: 3rem;
+    }
+    
+    .dark p.section-intro{
+        color: rgba(255, 255, 255,.8);}
+    
+    p.number{
+        font-size: 2.4rem;
+        font-weight: 200;
+        color: rgba(60, 58, 71, .5);}
+    
+    p.large {
+        font-size: 1.3rem;
+        font-weight: 200;
+        letter-spacing: -1px;}
+    
+    a {font-weight: 400;
+        font-size: 0.9em;
+        text-decoration: none;
+        color: rgb(106, 104, 102);}
+    
+    #back-home:hover {color: rgb(149, 153, 156);
+        transition: color 0.5s;
+     }
+    
+    form input,
+    form textarea,
+    form button {
+        font-size: 18px;
+        line-height: 1.55;}
+        
+        /*............... LAYOUT ................*/
+        /* ...........CONTAINER .................*/
+    
+    
+    .container {
+        width: 85%;
+        margin: 0 auto;}
+    
+    .container.small {
+        width: 60%;
+        max-width: 35rem;}
+
+    /* header */
+    
+    #main-header h2{margin-bottom: 1rem;} /** Joma */
+
+    #main-header h3{margin-bottom: 3rem;} /** Made in Spain */
+
+.text-link{
+    color: rgb(4, 4, 95);
+    text-decoration:dotted underline;
+}
+.text-link:hover{
+    background:#faf6f6; 
+}
+
+    .btn{
+        width:200px;    
+        height: 200px 400px;
+        }
+    
+    .btn{
+        padding: .5rem 1rem;
+        border: 1px solid rgb(159,118,87);
+        font-weight: 400;
+        font-size: smaller;
+        border-color: rgb(60,58,71);
+        color: rgb(60,58,71);
+        box-shadow: 3px 3px 5px gray;
+        border-radius: 50px;
+        }
+
+    .btn:hover{
+        background-color: rgb(60,58,71);
+        border-color: rgb(60,58,71);
+        color: rgb(255,255,255);
+        text-decoration: none;
+    }
+    
+        
+    /* Gallery SECTION NAVIGATION LINK PAGE */
+
+    #our-products {
+        margin:0;
+        background-color: #EFF0EA;
+        padding: 1.5rem 3rem 3rem 3rem
+        }
+    
+        
+    section header{margin-bottom: 3.5rem;}
+
+
+    #gallery img {
+        border-radius: 10px 10px;
+    }
+
+
+    #gallery{
+        padding: 1.5rem 3rem 3rem 3rem
+    }
+
+ /*PRODUCTS PAGE - IMPORTANT FOR 3 images*/
+        
+    .gallery1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        width: 100%;
+        gap: 1rem; 
+        margin-bottom: 2 rem;
+        object-fit:cover;
+        grid-auto-rows:auto;
+        grid-gap:10px;
+        grid-auto-flow: dense;
+        border-radius: 5px;
+    }
+
+    .banner{
+        border:2px solid #beb9b9; 
+        padding:2px;
+        border-radius: 10px;
+    }
+
+     img{max-width: 98%;
+        margin: 10px 0;
+        box-shadow: 5px 5px 10px gray;
+      }
+
+
+    /* GALLERY IMAGES -----------------------*/
+    
+        .container2{ /* master container */
+            display:grid;
+            grid-template-columns: repeat(8,1fr); /* 6 columns, 1 fraction of screen each */
+            grid-auto-rows:auto;
+            grid-gap:10px;
+            grid-auto-flow: dense; /* inserted later to avoid any gaps between images while scrolling  */
+        }
+        
+        .banner img {size-adjust: .5;}
+        
+    .gallery-title{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+        .gallery-item{
+            width:100%; 
+            height:100%;
+            position:relative; 
+        }
+        
+        .gallery-item .image{  
+            width:100%;
+            height:100%;
+            overflow:hidden; 
+            padding: .2em;
+        }
+        
+        .gallery-item .image img{  /* the target is 'img' within gallery-item and .image class  */
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            object-position:50% 50%; /* center of image  orig: 50% 50%*/
+            cursor:pointer;
+            transition:.5s ease-in-out; 
+        }
+        .gallery-item:hover .image img{
+            transform:scale(1.5); /* zoom-in at hover to 150%  */ 
+        }
+
+        .gallery-item .text{
+            opacity:0;
+            position:absolute; /* to reposition the text to image center */
+            top:50%; 
+            left:50%;  /* places top left of text at center of image */
+            transform:translate(-50%,50%); /* to move center of text to coincide with center of image */
+            color:#fff;
+            font-size:1em;
+            pointer-events:none; 
+            z-index:4;
+            transition: .3s ease-in-out;
+            -webkit-backdrop-filter: blur(5px) saturate(1.8);
+            backdrop-filter: blur(5px) saturate(1.8);
+        }
+        
+        .gallery-item:hover .text{ /* to animate text downward for text to appear at hover  */
+            opacity:1;
+            animation: move-down .3s linear;
+            padding:0.5em; /* to leave unblurred padding around text */
+            width:100%;
+            }
+        
+        .w-1{ /* to redefine from html number of columns to span per image 'w' width or columns 'h' height or rows */
+            grid-column: span 1;
+        }
+        .w-2{
+            grid-column: span 2;
+        }
+        .w-3{
+            grid-column: span 3;
+        }
+        .w-4{
+            grid-column: span 4;
+        }
+        .w-5{
+            grid-column: span 5;
+        }
+        .w-6{
+            grid-column: span 6;
+        }
+        
+        .h-1{
+            grid-row: span 1;
+        }
+        .h-2{
+            grid-row: span 2;
+        }
+        .h-3{
+            grid-row: span 3;
+        }
+        .h-4{
+            grid-row: span 4;
+        }
+        .h-5{
+            grid-row: span 5;
+        }
+        .h-6{
+            grid-row: span 6;
+        }
+        
+     
+        /* .......... Gallery section end ................ */
+        
+
+        /* CONTACT SECTION */
+    
+        #contact{
+            padding: 0 3rem 3rem 3rem;
+        }
+        
+        #about{
+            padding: 1rem 3rem 3rem 3rem;
+         }
+        
+        .dark{background-color: rgb(60, 58, 71);}
+    
+        .dark label{color: rgba(255, 255, 255, .8);}
+    
+        form div{margin-bottom: 1.5rem;}
+    
+        form label{
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: start;
+            margin-bottom: .5rem;}
+    
+        form input, form textarea{
+            background-color:rgba(255, 255, 255, .1);
+            border: none;
+            padding: 1rem;
+            width: 100%;
+            color: white;
+            resize:none;}
+    
+        form input:focus, 
+        form textarea:focus{
+            outline: none; background-color: rgba(255, 255, 255, .2);
+            text-align: left;}
+    
+        form button{
+            width: 100%;
+            cursor:pointer}
+    
+        .dark .btn{
+            border: 1px solid rgba(255, 255, 255, .8);}
+    
+        .dark .btn:hover{
+            background-color: rgb(60, 58, 71);
+            color: rgb(255, 255, 255);}
+        
+        p.muted{
+            color: rgb(255, 255, 255);}
+        
+        form button + p {
+            margin-top: 1.75rem;}
+    
+
+/*........... Google maps ............*/
+       #google-map{
+            max-width: 50%;
+            position:relative;
+            left: 25%;
+            margin-bottom: 10%;
+            }
+
+ /* ..........VISIT STORE............ */
+    
+    .social-icons{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            width: 100%;
+            align-items: center;
+            gap: 4rem;
+            border-radius: 5px;
+         }
+
+         .social-icons img{
+            border-radius: 10px;
+            width:50px;
+          }
+                    
+    .phone{
+        margin-bottom: 1rem;
+        }
+    
+    .whatsapp{
+        margin-bottom: 8px;
+       
+    }
+
+    .in-touch h3{
+            margin-top: 3rem;
+            margin-bottom: 1 rem;
+    }
+    
+    footer p{text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 0;
+      }
+    
+    /*............................ RESPONSIVE ...........................*/
+
+ /* -----------------------Mobile menu------------------- */
+ .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end; 
+    align-items: center;
+    max-width: 60%;
+   }
+
+.toggle  {order: 1;
+    }
+
+.item.button  {order: 2;}
+
+.item {width: 100%;
+      text-align: center;
+      order: 3;
+      display: none;}
+
+   .item.active {display: block;
+    }
+       
+/* ---------------------Navbar Toggle---------------------- */
+
+.toggle {
+        cursor:pointer;
+        }
+
+.bars   { 
+        background: #999;
+        display: inline-block;
+        height: 2px; 
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+    }
+
+.bars:before, /* to build top and bottom span burger bars */
+
+.bars:after { 
+            background: #999;
+            content: ''; 
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%;
+            }
+
+.bars:before {top: 5px;
+            }
+
+.bars:after   {top: -5px;}
+
+/* ------------------------NAV BAR Tablet menu------------------------ */
+
+
+@media all and (min-width:468px)
+{
+    .menu {justify-content: center;}
+        
+    .logo {flex: 1;}
+
+    .item.button {width: auto;
+                order: 1;
+                display: block;}
+
+    .toggle       {order: 2;
+                justify-content: right;
+                
+    }
+    .button.secondary   {border: 0;}
+
+    .button a   {padding: 7.5px 15px;
+            background: teal;
+            border: 1px #006d6d solid;
+            border-radius:50em;
+        }
+
+    .button.secondary a { /*About button*/
+        background: transparent;
+        }
+
+    .button a:hover     {text-decoration: none;
+                        transition:all .25s;
+                    }
+
+    .button:not(.secondary) a:hover {background: #006d6d;
+                                    border-color: #005959;}
+
+    .button.secondary a:hover {color: #ddd;
+    }
+ }
+
+
+/* NAV BAR Desktop menu */
+@media all and (min-width: 768px)
+ {
+    .item {  display: block;
+            width: auto;}
+    .toggle {display: none;}
+    .logo   {order: 0;}
+    .item   {order: 1;}
+    .button {order: 2;}
+    .menu li        {padding: 15px 10px;}
+    .menu li.button {padding-right: 0;}
+    }
+
+/* From /\ .............NAVBAR........... Index html styles css  */
+
+
+
+
+/* ..............from photo gallery ............................*/
+
+         @media screen and (max-width:660px){
+            .container2{
+                grid-template-columns: repeat(2,2fr);
+            }
+            .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+                grid-column:span 4;
+            }
+        }
+        
+        
+        @keyframes move-down{
+        
+            0%{
+                top:10%;
+            }
+            50%{
+                top:35%;
+            }
+            100%{
+                top:50%;
+            }
+        }
+/* ...................from part 2...................*/
+
+    @media screen and (max-width: 400px)
+    {
+        h1, h3.large {
+            font-size: 2.3rem;
+        }
+       
+        h2, p.large{
+            font-size: 1.3rem;
+        }
+        
+        h3 
+            {font-size: 1.5rem;
+            margin-bottom: 3rem;
+            margin-top: 2rem;
+        }
+    
+        #main-header, section{
+            padding: 1rem 0;
+        }
+    
+        footer {
+            padding: 2.5rem 0;
+        }
+        
+        p.large + .social-icons{
+            margin-top: 3.5rem;
+        }
+    }
+    
+    @media screen and (max-width: 660px){ 
+        #gallery, .gallery1{ 
+            grid-template-columns: 4fr;
+            gap: 2rem
+            }
+    }
+    
+ 
