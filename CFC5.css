@@ -389,11 +389,16 @@
             cursor:pointer}
     
         .dark .btn{
-            border: 1px solid rgba(255, 255, 255, .8);}
+            border: 1px solid rgba(255, 255, 255, .8);
+            color: rgb(255, 255, 255);
+            padding-left: 30px;
+            padding-right: 30px;
+         }
     
         .dark .btn:hover{
             background-color: rgb(60, 58, 71);
-            color: rgb(255, 255, 255);}
+            color: rgb(255, 255, 255);
+        }
         
         p.muted{
             color: rgb(255, 255, 255);}
@@ -591,7 +596,7 @@
     @media screen and (max-width: 400px)
     {
         h1, h3.large {
-            font-size: 2.3rem;
+            font-size: 2.5rem;
         }
        
         h2, p.large{
@@ -599,7 +604,7 @@
         }
         
         h3 
-            {font-size: 1.5rem;
+            {font-size: 1.7rem;
             margin-bottom: 3rem;
             margin-top: 2rem;
         }

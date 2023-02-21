@@ -401,61 +401,68 @@ $(function() {$(".toggle").on("click", function()
 		<!---CONTACT SECTION - DARK -->
 
 
-		<section id="contact" class="dark">
-			<div class="container small">
-				<header>
-					<p class="in-touch">Contact us</p>
-					<h3>Let's stay in touch</h3>
-				</header>
+	<section id="contact" class="dark">
+		<div class="container small">
+			<header>
+				<p class="in-touch">Contact us</p>
+				<h3>Let's stay in touch</h3>
+			</header>
 
-				<form action="#home" method="post">
+			<form action="home" method="post">
+				<div>
+					<label for="contact-name">Name</label>
+					<input type="text" name="contact-name" id="contact-name">
+				</div>
+				<div>
+					<label for="contact-email">Email address</label>
+					<input type="email" name="contact-email" id="contact-email">
 					<div>
-						<label for="contact-name">Name</label>
-						<input type="text" name="contact-name" id="contact-name">
+						<label for="Contact-message">Message</label>
+						<textarea name="contact-message" id="contact-message" cols="30" rows="3"></textarea>
 					</div>
 					<div>
-						<label for="contact-email">Email address</label>
-						<input type="email" name="contact-email" id="contact-email">
-						<div>
-							<label for="Contact-message">Message</label>
-							<textarea name="contact-message" id="contact-message" cols="30" rows="3"></textarea>
-						</div>
-						<div class="buttons">
-							<button class="btn"><strong>Send message</strong></button>
-
-							<p class="muted"><em>All fields are required. We'll get back to you as soon as
-									possible.</em></p>
-						</div>
+						<a class="dark btn" href="#home" class="btn">Send Message</a>
 					</div>
-				</form>
-			</div>
-		</section>
 
-		<section id="about">
-			<div class="container">
-				<p class="section-intro">Visit our store</p>
-				<p class="whatsapp">Phone and WhatsApp</p>
-				<h3 class="phone">+ (961) 71 757 137</h3>
-				<p class="address">Main Street, Amioun Ehden Road,<br>Kfar Saroun, Koura</p>
-			
+
+					<p class="muted"><em>All fields are required. We'll get back to you as soon as
+								possible.</em></p>
+					
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<p class="section-intro">Visit our store</p>
+			<p class="whatsapp">Phone and WhatsApp</p>
+			<h3 class="phone">+ (961) 71 757 137</h3>
+			<p class="address">Main Street, Amioun Ehden Road,<br>Kfar Saroun, Koura</p>
+		
 
 			<div>
 				<ul class="social-icons">
 				
 					<li>
-						<a href="#home"><img id="home-icon" src="Home.jpg" alt="Home logo"></a>
+						<a href="#home"><img src="home1.svg" alt="HOME"></a>
 					</li>
 					<li>
-						<a href="https://www.facebook.com/profile.php?id=100064178373327" target="_blank"><img src="icons8-facebook.svg" alt="Facebook"></a>
+						<a href="https://api.whatsapp.com/send?phone=96176420447&text=hlo" target="_blank"><img src="whatsapp.svg" target="_blank" alt="WhatsApp"></a> <!--http://wa.link/qsdyi-->
 					</li>
 					<li>
 						<a href="https://www.instagram.com/cfc_sportss/" target="_blank"><img src="icons8-instagram.svg" target="_blank" alt="Instagram"></a>
 					</li>
+					<li>
+						<a href="https://www.facebook.com/profile.php?id=100064178373327" target="_blank"><img src="icons8-facebook.svg" alt="Facebook"></a>
+					</li>
+					
 				</ul>
 			</div>
+
 			<footer>
 					<div class="copyright">
-						<p> &copy; copyright <a href="#"><strong>CodenHex</strong></a> and <a href="#"><strong>MerSoft</strong></a> all rights reserved</p>
+						<p> &copy; copyright <a href="#"><strong>CodinHex</strong></a> and <a href="#"><strong>MerSoft</strong></a> all rights reserved</p>
 					</div>
 			</footer>
 
